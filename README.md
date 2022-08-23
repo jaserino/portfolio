@@ -4,7 +4,7 @@ Personal Portfolio
 
 ## Demo link:
 
-Access my site at [google.com](https://google.com)
+Access my site at [netlify.com](https://jared-serino.netlify.app/)
 
 ## Table of Content:
 

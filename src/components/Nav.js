@@ -1,14 +1,14 @@
-import { useEffect, useState } from "react";
-import { Navbar, Container, Nav } from "react-bootstrap";
-import github from "../assets/img/github.svg";
-import linkedin from "../assets/img/linkedin.svg";
-import twitter from "../assets/img/twitter.svg";
-import resume from "../assets/img/resume.svg";
-import CV from "../assets/img/Jared's Resume.pdf";
-import logo from "../assets/img/logo.svg";
+import { useEffect, useState } from 'react';
+import { Navbar, Container, Nav } from 'react-bootstrap';
+import github from '../assets/img/github.svg';
+import linkedin from '../assets/img/linkedin.svg';
+import twitter from '../assets/img/twitter.svg';
+import resume from '../assets/img/resume.svg';
+import CV from '../assets/img/Jared.Serino.Resume.pdf';
+import logo from '../assets/img/logo.svg';
 
 export const NavBar = () => {
-  const [activeLink, setActiveLink] = useState("home");
+  const [activeLink, setActiveLink] = useState('home');
   // saving state and adding removing scroll if user scrolls
   const [scrolled, setScrolled] = useState(false);
 
@@ -20,9 +20,9 @@ export const NavBar = () => {
         setScrolled(false);
       }
     };
-    window.addEventListener("scroll", onScroll);
+    window.addEventListener('scroll', onScroll);
 
-    return () => window.removeEventListener("scroll", onScroll);
+    return () => window.removeEventListener('scroll', onScroll);
   }, []);
 
   const clickedActive = (value) => {
@@ -30,7 +30,7 @@ export const NavBar = () => {
   };
 
   return (
-    <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
+    <Navbar expand="lg" className={scrolled ? 'scrolled' : ''}>
       <Navbar.Brand href="#home">
         <img src={logo} alt="logo"></img>
       </Navbar.Brand>
@@ -39,36 +39,36 @@ export const NavBar = () => {
           <Nav.Link
             href="#home"
             className={
-              activeLink === "home" ? "active navbar-link" : "navbar-link"
+              activeLink === 'home' ? 'active navbar-link' : 'navbar-link'
             }
-            onClick={() => clickedActive("home")}
+            onClick={() => clickedActive('home')}
           >
             Home
           </Nav.Link>
           <Nav.Link
             href="#skills"
             className={
-              activeLink === "skills" ? "active navbar-link" : "navbar-link"
+              activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'
             }
-            onClick={() => clickedActive("skills")}
+            onClick={() => clickedActive('skills')}
           >
             Skills
           </Nav.Link>
           <Nav.Link
             href="#projects"
             className={
-              activeLink === "projects" ? "active navbar-link" : "navbar-link"
+              activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'
             }
-            onClick={() => clickedActive("projects")}
+            onClick={() => clickedActive('projects')}
           >
             Projects
           </Nav.Link>
           <Nav.Link
             href="#interests"
             className={
-              activeLink === "interests" ? "active navbar-link" : "navbar-link"
+              activeLink === 'interests' ? 'active navbar-link' : 'navbar-link'
             }
-            onClick={() => clickedActive("interests")}
+            onClick={() => clickedActive('interests')}
           >
             Interests
           </Nav.Link>

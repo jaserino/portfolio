@@ -1,6 +1,6 @@
-import { Container, Row, Col } from "react-bootstrap";
-import Carousel from "react-multi-carousel";
-import "react-multi-carousel/lib/styles.css";
+import { Container, Row, Col } from 'react-bootstrap';
+import Carousel from 'react-multi-carousel';
+import 'react-multi-carousel/lib/styles.css';
 
 export const Skills = () => {
   const responsive = {
@@ -34,7 +34,7 @@ export const Skills = () => {
               <Carousel
                 responsive={responsive}
                 infinite={true}
-                className={"skill-slider"}
+                className={'skill-slider'}
               >
                 <div className="item">
                   <img
@@ -56,6 +56,14 @@ export const Skills = () => {
                     alt="Python"
                   />
                   <h5>Python</h5>
+                </div>
+                <div className="item">
+                  <img
+                    src="https://img.icons8.com/color/144/000000/nodejs.png"
+                    alt="Nodejs"
+                  />
+
+                  <h5>NodeJS</h5>
                 </div>
                 <div className="item">
                   <img
@@ -91,6 +99,13 @@ export const Skills = () => {
                     alt="Bootstrap"
                   />
                   <h5>Bootstrap</h5>
+                </div>
+                <div className="item">
+                  <img
+                    src="https://img.icons8.com/color/144/000000/tailwind_css.png"
+                    alt="tailwindcss"
+                  />
+                  <h5>Tailwindcss</h5>
                 </div>
               </Carousel>
             </div>

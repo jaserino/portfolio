@@ -88,13 +88,6 @@ export const Skills = () => {
                 </div>
                 <div className="item">
                   <img
-                    src="https://img.icons8.com/color/144/000000/mysql-logo.png"
-                    alt="MySQL"
-                  />
-                  <h5>MySQL</h5>
-                </div>
-                <div className="item">
-                  <img
                     src="https://img.icons8.com/color/144/000000/bootstrap.png"
                     alt="Bootstrap"
                   />
@@ -102,7 +95,7 @@ export const Skills = () => {
                 </div>
                 <div className="item">
                   <img
-                    src="https://img.icons8.com/color/144/000000/tailwind_css.png"
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/144px-Tailwind_CSS_Logo.svg.png?20211001194333"
                     alt="tailwindcss"
                   />
                   <h5>Tailwindcss</h5>

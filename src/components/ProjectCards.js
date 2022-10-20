@@ -1,8 +1,8 @@
-import { Col } from "react-bootstrap";
+import { Col } from 'react-bootstrap';
 
 export const ProjectCard = ({ title, imgUrl, pageLink, gitLink }) => {
   return (
-    <Col sm={6} md={4}>
+    <Col sm={6} md={4} lg={4}>
       <div className="project-imgbox">
         <img src={imgUrl} alt="project" />
         <div className="project-tide">

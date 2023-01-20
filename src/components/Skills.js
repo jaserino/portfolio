@@ -52,15 +52,15 @@ export const Skills = () => {
                 </div>
                 <div className="item">
                   <img
-                    src="https://img.icons8.com/color/144/000000/python--v1.png"
-                    alt="Python"
+                    src="https://img.icons8.com/fluency/144/null/java-coffee-cup-logo.png"
+                    alt="Java"
                   />
                   <h5>Python</h5>
                 </div>
                 <div className="item">
                   <img
-                    src="https://img.icons8.com/color/144/000000/nodejs.png"
-                    alt="Nodejs"
+                    src="https://img.icons8.com/color/144/null/spring-logo.png"
+                    alt="Spring boot"
                   />
 
                   <h5>NodeJS</h5>

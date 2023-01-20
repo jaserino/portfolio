@@ -4,7 +4,7 @@ import github from '../assets/img/github.svg';
 import linkedin from '../assets/img/linkedin.svg';
 import twitter from '../assets/img/twitter.svg';
 import resume from '../assets/img/resume.svg';
-import CV from '../assets/img/Jared.Serino.Resume.pdf';
+import CV from '../assets/img/JaredsResume.pdf';
 import logo from '../assets/img/logo.svg';
 
 export const NavBar = () => {

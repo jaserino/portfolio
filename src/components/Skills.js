@@ -55,7 +55,7 @@ export const Skills = () => {
                     src="https://img.icons8.com/fluency/144/null/java-coffee-cup-logo.png"
                     alt="Java"
                   />
-                  <h5>Python</h5>
+                  <h5>Java</h5>
                 </div>
                 <div className="item">
                   <img
@@ -63,7 +63,7 @@ export const Skills = () => {
                     alt="Spring boot"
                   />
 
-                  <h5>NodeJS</h5>
+                  <h5>Spring boot</h5>
                 </div>
                 <div className="item">
                   <img

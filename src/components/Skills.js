@@ -52,18 +52,18 @@ export const Skills = () => {
                 </div>
                 <div className="item">
                   <img
-                    src="https://img.icons8.com/fluency/144/null/java-coffee-cup-logo.png"
+                    src="https://img.icons8.com/color/144/null/nodejs.png"
                     alt="Java"
                   />
-                  <h5>Java</h5>
+                  <h5>NodeJS</h5>
                 </div>
                 <div className="item">
                   <img
-                    src="https://img.icons8.com/color/144/null/spring-logo.png"
-                    alt="Spring boot"
+                    src="https://img.icons8.com/color/144/null/nextjs.png"
+                    alt="Next"
                   />
 
-                  <h5>Spring boot</h5>
+                  <h5>NextJS</h5>
                 </div>
                 <div className="item">
                   <img
@@ -99,6 +99,20 @@ export const Skills = () => {
                     alt="tailwindcss"
                   />
                   <h5>Tailwindcss</h5>
+                </div>
+                <div className="item">
+                  <img
+                    src="https://img.icons8.com/color/144/null/python--v1.png"
+                    alt="Python"
+                  />
+                  <h5>Python</h5>
+                </div>
+                <div className="item">
+                  <img
+                    src="https://img.icons8.com/color/144/null/java-coffee-cup-logo--v1.png"
+                    alt="Java"
+                  />
+                  <h5>Java</h5>
                 </div>
               </Carousel>
             </div>

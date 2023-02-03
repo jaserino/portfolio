@@ -14,8 +14,8 @@ export const Projects = () => {
       title: 'Solar',
       description: 'xxxx',
       imgUrl: solar,
-      pageLink: 'https://github.com/jaserino/solar',
-      gitLink: 'https://github.com/jaserino/solar',
+      pageLink: 'https://github.com/jaserino/solarstudy',
+      gitLink: 'https://github.com/jaserino/solarstudy',
     },
     {
       title: 'Plant Social',

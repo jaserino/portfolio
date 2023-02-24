@@ -52,21 +52,6 @@ export const Skills = () => {
                 </div>
                 <div className="item">
                   <img
-                    src="https://img.icons8.com/color/144/null/nodejs.png"
-                    alt="Java"
-                  />
-                  <h5>NodeJS</h5>
-                </div>
-                <div className="item">
-                  <img
-                    src="https://img.icons8.com/color/144/null/nextjs.png"
-                    alt="Next"
-                  />
-
-                  <h5>NextJS</h5>
-                </div>
-                <div className="item">
-                  <img
                     src="https://img.icons8.com/color/144/000000/html-5--v1.png"
                     alt="HTML"
                   />

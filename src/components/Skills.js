@@ -52,6 +52,13 @@ export const Skills = () => {
                 </div>
                 <div className="item">
                   <img
+                    src="https://img.icons8.com/color/144/null/python--v1.png"
+                    alt="Python"
+                  />
+                  <h5>Python</h5>
+                </div>
+                <div className="item">
+                  <img
                     src="https://img.icons8.com/color/144/000000/html-5--v1.png"
                     alt="HTML"
                   />
@@ -84,13 +91,6 @@ export const Skills = () => {
                     alt="tailwindcss"
                   />
                   <h5>Tailwindcss</h5>
-                </div>
-                <div className="item">
-                  <img
-                    src="https://img.icons8.com/color/144/null/python--v1.png"
-                    alt="Python"
-                  />
-                  <h5>Python</h5>
                 </div>
                 <div className="item">
                   <img

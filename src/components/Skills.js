@@ -52,10 +52,10 @@ export const Skills = () => {
                 </div>
                 <div className="item">
                   <img
-                    src="https://img.icons8.com/color/144/null/python--v1.png"
-                    alt="Python"
+                    src="https://img.icons8.com/color/144/null/nodejs.png"
+                    alt="Nodejs"
                   />
-                  <h5>Python</h5>
+                  <h5>Nodejs</h5>
                 </div>
                 <div className="item">
                   <img
@@ -98,6 +98,13 @@ export const Skills = () => {
                     alt="Java"
                   />
                   <h5>Java</h5>
+                </div>
+                <div className="item">
+                  <img
+                    src="https://img.icons8.com/color/144/null/python--v1.png"
+                    alt="Python"
+                  />
+                  <h5>Python</h5>
                 </div>
               </Carousel>
             </div>

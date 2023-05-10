@@ -8,9 +8,9 @@ export const Hero = () => {
         <Row className="align-items-center">
           <Col xs={12} md={6} xl={7}>
             <span className="name">Jared Serino</span>
-            <h1 className="we">Software Developer</h1>
+            <h1 className="we">Software Engineer</h1>
             <p>
-              Hi I'm Jared, former accounting clerk turned software developer. I
+              Hi I'm Jared, former accounting clerk turned software engineer. I
               have a Bachelors in Computer Information Systems with a
               specialization in Software Programming. Im striving to bring my
               analytical and creative approach to problem solving within a

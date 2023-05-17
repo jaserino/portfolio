@@ -12,7 +12,7 @@ export const Hero = () => {
             <p>
               Hi I'm Jared, former accounting clerk turned software engineer. I
               have a Bachelors in Computer Information Systems with a
-              specialization in Software Programming. Im striving to bring my
+              specialization in Software Engineering. Im striving to bring my
               analytical and creative approach to problem solving within a
               fast-paced tech environment.
             </p>

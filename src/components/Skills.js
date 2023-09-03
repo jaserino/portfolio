@@ -38,13 +38,6 @@ export const Skills = () => {
               >
                 <div className="item">
                   <img
-                    src="https://img.icons8.com/color/144/null/java-coffee-cup-logo--v1.png"
-                    alt="Java"
-                  />
-                  <h5>Java</h5>
-                </div>
-                <div className="item">
-                  <img
                     src="https://img.icons8.com/color/144/000000/javascript--v1.png"
                     alt="JS"
                   />
@@ -52,17 +45,17 @@ export const Skills = () => {
                 </div>
                 <div className="item">
                   <img
+                    src="https://img.icons8.com/color/144/typescript.png"
+                    alt="typescript"
+                  />
+                  <h5>TypeScript</h5>
+                </div>
+                <div className="item">
+                  <img
                     src="https://img.icons8.com/color/144/000000/react-native.png"
                     alt="React"
                   />
                   <h5>React</h5>
-                </div>
-                <div className="item">
-                  <img
-                    src="https://img.icons8.com/color/144/null/python--v1.png"
-                    alt="Python"
-                  />
-                  <h5>Python</h5>
                 </div>
                 <div className="item">
                   <img
@@ -101,10 +94,26 @@ export const Skills = () => {
                 </div>
                 <div className="item">
                   <img
-                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/144px-Tailwind_CSS_Logo.svg.png?20211001194333"
+                    width="144"
+                    height="144"
+                    src="https://img.icons8.com/color/144/tailwindcss.png"
                     alt="tailwindcss"
                   />
                   <h5>Tailwindcss</h5>
+                </div>
+                <div className="item">
+                  <img
+                    src="https://img.icons8.com/color/144/null/java-coffee-cup-logo--v1.png"
+                    alt="Java"
+                  />
+                  <h5>Java</h5>
+                </div>
+                <div className="item">
+                  <img
+                    src="https://img.icons8.com/color/144/null/python--v1.png"
+                    alt="Python"
+                  />
+                  <h5>Python</h5>
                 </div>
               </Carousel>
             </div>

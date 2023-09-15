@@ -46,13 +46,6 @@ export const Projects = () => {
       gitLink: 'https://github.com/jaserino/virtual-assistant',
     },
     {
-      title: 'LOL Rolodex',
-      description: 'xxxx',
-      imgUrl: lolchamps,
-      pageLink: 'https://jaserino.github.io/LOL-rolodex',
-      gitLink: 'https://github.com/jaserino/LOL-rolodex',
-    },
-    {
       title: 'RunX Fitness App',
       description: 'xxxx',
       imgUrl: runX,

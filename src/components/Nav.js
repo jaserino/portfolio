@@ -4,7 +4,7 @@ import github from '../assets/img/github.svg';
 import linkedin from '../assets/img/linkedin.svg';
 import twitter from '../assets/img/twitter.svg';
 import resume from '../assets/img/resume.svg';
-import CV from '../assets/img/JaredSerinoFE.pdf';
+import CV from '../assets/img/JaredSerinoResume.pdf';
 import logo from '../assets/img/logo.svg';
 
 export const NavBar = () => {
@@ -84,9 +84,9 @@ export const NavBar = () => {
             <a href="https://twitter.com/jare_ser">
               <img src={twitter} alt="" />
             </a>
-            {/* <a href={CV} download>
+            <a href={CV} download>
               <img src={resume} alt="" />
-            </a> */}
+            </a>
           </div>
         </span>
       </Container>

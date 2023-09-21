@@ -4,7 +4,6 @@ import plantsocial from '../assets/img/plantsocial.png';
 import wolfpacktravel from '../assets/img/wolfpacktravel.png';
 import eatnrank from '../assets/img/eatnrank.png';
 import ahva from '../assets/img/ahva.png';
-import lolchamps from '../assets/img/lolchamps.png';
 import runX from '../assets/img/runX.png';
 import solar from '../assets/img/solar2.png';
 

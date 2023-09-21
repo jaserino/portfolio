@@ -84,9 +84,9 @@ export const NavBar = () => {
             <a href="https://twitter.com/jare_ser">
               <img src={twitter} alt="" />
             </a>
-            <a href={CV} download>
+            {/* <a href={CV} download>
               <img src={resume} alt="" />
-            </a>
+            </a> */}
           </div>
         </span>
       </Container>

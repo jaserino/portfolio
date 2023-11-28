@@ -35,7 +35,7 @@ export const NavBar = () => {
         <img src={logo} alt="logo"></img>
       </Navbar.Brand>
       <Container>
-        <Nav className="me-auto">
+        <Nav>
           <Nav.Link
             href="#home"
             className={
@@ -75,13 +75,25 @@ export const NavBar = () => {
         </Nav>
         <span className="navbar-text">
           <div className="social-icon">
-            <a href="https://github.com/jaserino">
+            <a
+              href="https://github.com/jaserino"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img src={github} alt="" />
             </a>
-            <a href="https://www.linkedin.com/in/jaredserino/">
+            <a
+              href="https://www.linkedin.com/in/jaredserino/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img src={linkedin} alt="" />
             </a>
-            <a href="https://twitter.com/jare_ser">
+            <a
+              href="https://twitter.com/jare_ser"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img src={twitter} alt="" />
             </a>
             <a href={CV} download>

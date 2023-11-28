@@ -3,12 +3,19 @@ import { ProjectCard } from './ProjectCards';
 import plantsocial from '../assets/img/plantsocial.png';
 import wolfpacktravel from '../assets/img/wolfpacktravel.png';
 import eatnrank from '../assets/img/eatnrank.png';
-import ahva from '../assets/img/ahva.png';
 import runX from '../assets/img/runX.png';
 import solar from '../assets/img/solar2.png';
+import ras from '../assets/img/RAS.png';
 
 export const Projects = () => {
   const projects = [
+    {
+      title: 'RAS Safety Consultants Inc',
+      description: 'xxxx',
+      imgUrl: ras,
+      pageLink: 'https://www.rassafetyconsultantsinc.com/',
+      gitLink: 'https://github.com/jaserino/RAS_Safety_Consultants',
+    },
     {
       title: 'Solar',
       description: 'xxxx',
@@ -36,13 +43,6 @@ export const Projects = () => {
       imgUrl: eatnrank,
       pageLink: 'https://eatnrank.netlify.app/',
       gitLink: 'https://github.com/jaserino/Eat-N-Rank',
-    },
-    {
-      title: 'Desktop Assistant',
-      description: 'xxxx',
-      imgUrl: ahva,
-      pageLink: 'https://github.com/jaserino/virtual-assistant',
-      gitLink: 'https://github.com/jaserino/virtual-assistant',
     },
     {
       title: 'RunX Fitness App',

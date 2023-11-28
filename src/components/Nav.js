@@ -35,7 +35,7 @@ export const NavBar = () => {
         <img src={logo} alt="logo"></img>
       </Navbar.Brand>
       <Container>
-        <Nav className="me-auto">
+        <Nav>
           <Nav.Link
             href="#home"
             className={

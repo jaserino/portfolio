@@ -33,6 +33,11 @@ h6 {
 
 /* Navbar */
 
+.nav-flex {
+  display: flex;
+  flex-direction: row;
+}
+
 nav a.navbar-brand {
   margin-left: 80px;
 }
@@ -58,10 +63,6 @@ nav.navbar .navbar-nav .nav-link.navbar-link {
   padding: 0 25px;
   font-size: 18px;
   opacity: 0.75;
-}
-
-.me-auto {
-  margin-left: 50px;
 }
 
 nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
@@ -212,10 +213,14 @@ svg:hover #steam-2 {
   margin: 10px 0 50px 0;
 }
 
+.project-img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
 .project-imgbox {
   position: relative;
-  border-radius: 30px;
-  overflow: hidden;
+  border-radius: 20px;
   margin-bottom: 24px;
 }
 
@@ -233,12 +238,12 @@ svg:hover #steam-2 {
   background-image: linear-gradient(to bottom, #121212, black);
 }
 
-.project-imgbox:hover .project-tide {
+.project-imgbox:hover .project-label {
   top: 50%;
   opacity: 1;
 }
 
-.project-tide {
+.project-label {
   position: absolute;
   text-align: center;
   top: 65%;
@@ -249,17 +254,12 @@ svg:hover #steam-2 {
   width: 100%;
 }
 
-.project-tide h4 {
+.project-label h4 {
   font-size: 30px;
   font-weight: 700;
   letter-spacing: 0.8px;
   line-height: 1.1em;
   color: white;
-}
-
-.tech-used {
-  width: 30px;
-  height: 30px;
 }
 
 .project-imgbox img {

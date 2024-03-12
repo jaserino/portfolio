@@ -10,9 +10,9 @@ export const Hero = () => {
             <span className="name">Jared Serino</span>
             <h1 className="we">Software Developer</h1>
             <p>
-              Hi I'm Jared 👋🏼, former accounting clerk turned software devloper.
-              I have a Bachelors in Computer Information Systems with a
-              specialization in Software Engineering. Im striving to bring my
+              Hi I'm Jared 👋🏼, former accounting clerk turned software
+              developer. I have a Bachelors in Computer Information Systems with
+              a specialization in Software Engineering. Im striving to bring my
               analytical and creative approach to problem solving within a
               fast-paced tech environment.
             </p>
